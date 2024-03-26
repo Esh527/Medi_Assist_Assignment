@@ -1,0 +1,63 @@
+.placement_assistance-container{
+    background-color: #F5EDFF;
+    height: 409px;
+    margin: 14px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.placement_assistance-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 18px;
+    font-size: 13px;
+}
+.placement_assistance-heading{
+    font-size: 21px;
+}
+.placement_assistance-para{
+    font-size: 15px;
+}
+
+/* Media queries */
+
+/* Media query for screens smaller than 768px (typical smartphones) */
+@media (max-width: 767px) {
+    .placement_assistance-container{
+        background-color: #F5EDFF;
+        height: 409px;
+        margin: 14px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .placement_assistance-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 18px;
+        font-size: 10px;
+    }
+    .placement_assistance-heading{
+        font-size: 17px;
+    }
+    .placement_assistance-para{
+        font-size: 10px;
+    }
+}
+
+/* Media query for screens between 768px and 991px (small tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+   
+   
+}
+/* Media query for screens between 992px and 1199px (large tablets and small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/* Media query for screens larger than 1200px (desktops and larger) */
+@media (min-width: 1200px) {
+   
+}

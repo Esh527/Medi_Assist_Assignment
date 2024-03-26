@@ -1,0 +1,156 @@
+/* Header styles */
+header {
+    background-color: #343074; 
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+  }
+  .icon{
+    color: white;
+  }
+  .company-name{
+    color: white;
+    font-size:17px;
+  }
+  /* Navigation styles */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px; 
+  }
+  
+  nav li:last-child {
+    margin-right: 0; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white; 
+    font-size:17px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline; 
+  }
+  
+  /* Sign-in and login buttons styles */
+  .sign-buttons {
+    display: flex;
+  }
+  
+  .sign-buttons a {
+    text-decoration: none;
+    color: white; 
+    margin-left: 20px; 
+  }
+  
+ 
+  .sign-buttons1{
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(252, 250, 250);
+    width: 130px;
+    height: 30px;
+  }
+  
+  /* Media queries */
+
+/* Media query for screens smaller than 768px (typical smartphones) */
+@media (max-width: 767px) {
+  header {
+    background-color: #343074; 
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styles */
+  .logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+  }
+  .icon{
+    color: white;
+    size: 10px;
+  }
+  .company-name{
+    color: white;
+    font-size:10px;
+  }
+  /* Navigation styles */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px; 
+  }
+  
+  nav li:last-child {
+    margin-right: 0; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white; 
+  
+  }
+  
+  nav a:hover {
+    text-decoration: underline; 
+  }
+  .company-name-1,.company-name-2,.company-name-3,.company-name-4{
+    font-size:9.1px;
+  }
+  /* Sign-in and login buttons styles */
+  .sign-buttons {
+    display: flex;
+  
+  }
+  
+  .sign-buttons a {
+    text-decoration: none;
+    color: white; 
+    font-size:10px;
+    margin-left: 20px; 
+  }
+  
+ 
+  .sign-buttons1{
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(252, 250, 250);
+    width: 98px;
+    height: 26px;
+    font-size:13px;
+  }
+}
+
+/* Media query for screens between 768px and 991px (small tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+   
+   
+}
+/* Media query for screens between 992px and 1199px (large tablets and small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/* Media query for screens larger than 1200px (desktops and larger) */
+@media (min-width: 1200px) {
+   
+}
