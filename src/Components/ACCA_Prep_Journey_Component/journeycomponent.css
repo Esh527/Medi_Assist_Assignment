@@ -93,6 +93,11 @@
         color: #343074;
         font-size: 10px;
     }
+    .span-silver-data{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 8px;
+    }
 }
 
 /* Media query for screens between 768px and 991px (small tablets) */

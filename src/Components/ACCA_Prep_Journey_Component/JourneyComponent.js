@@ -54,7 +54,7 @@ function JourneyComponent(){
     </div>
     <div className="bottom-container">
     <div className="silver-learning-partner">
-                    <span>SILVER LEARNING PARTNER</span>
+                    <span className='span-silver-data'>SILVER LEARNING PARTNER</span>
                     <div className="acca-container1">
                         <p>ACCA</p>
                     </div>

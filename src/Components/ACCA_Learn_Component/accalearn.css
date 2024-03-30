@@ -90,14 +90,14 @@ ul li a {
     .container-div {
         display: flex;
         justify-content: center;
-        margin: 10px;
+        margin: 6px;
         padding: 10px;
+        overflow: auto;
         
     }
     
     .container-1,
-    .container-2,
-    .container-3 {
+    .container-2 {
         display: flex;
         flex-direction: column;
         justify-content:space-between;
@@ -108,6 +108,18 @@ ul li a {
         background-color: #F3F8FE;
     
     
+    }
+    .container-3{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        font-size: 10px;
+        
+        margin: 9px;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #F3F8FE;
+        height: 100%;
+
     }
     
     .container-1-heading,
@@ -129,7 +141,8 @@ ul li a {
     
     .con-3-head1,
     .con-3-head2 {
-        font-size: 10px;
+        font-size: 5px;
+        
         font-family: 'Times New Roman', Times, serif;
     }
     
@@ -139,7 +152,7 @@ ul li a {
     
     ul li a {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 8px;
+        font-size: 7px;
     }
 }
 

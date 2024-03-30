@@ -23,26 +23,26 @@ function Acca(){
 
         <div className="container-111">
            <h1 className="head">Registered Users</h1>
-            <MdEmojiEmotions /><span>3,11,807</span>
+            <MdEmojiEmotions /> <span className="span-data">3,11,807</span>
           </div>
       
         <div className="container-222">
             
             <h1 className="head">Courses Enrolled</h1>
-            <SlBookOpen /><span>92,722</span>
+            <SlBookOpen /> <span className="span-data">92,722</span>
            
         </div>
         <div className="container-333">
           
             <h1 className="head">Minutes Watched</h1>
-            <PiTelevisionDuotone /><span>4,72,59,093</span>
+            <PiTelevisionDuotone /> <span className="span-data">4,72,59,093</span>
           
 
         </div>
         <div className="container-444">
           
             <h1 className="head">Faculty</h1>
-            <IoMdPeople /><span>8 Experts </span>
+            <IoMdPeople /> <span className="span-data">8 Experts </span>
          
 
         </div>
@@ -55,7 +55,7 @@ function Acca(){
                     
                     </div>
     <div className="silver-learning-partner">
-                    <span>SILVER LEARNING PARTNER</span>
+                    <span className="span-silver-data">SILVER LEARNING PARTNER</span>
                     <div className="acca-container1">
                         <p>ACCA</p>
                     </div>

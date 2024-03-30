@@ -5,7 +5,7 @@ import './header.css'; // Assuming this is your CSS file
 
 function Header() {
     return (
-        <header>
+        <header className="header-main-container">
             <div><IoMdMenu className="icon"/>
             <span className="company-name">IndigoLearn</span></div>
             <nav>

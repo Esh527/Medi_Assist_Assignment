@@ -9,7 +9,7 @@ function EligibilityComponent(){
     return (
         <div>
     
-    <div className="container-div">
+    <div className="container-div-main-one">
 
         <div className="container-11">
             <div className="container-11-heading">
@@ -17,7 +17,7 @@ function EligibilityComponent(){
             </div>
            
            <h1>Levels</h1>
-           <SlBookOpen /><span>Three (13 papers)</span>
+           <SlBookOpen /> <span>Three (13 papers)</span>
 
                 
 
@@ -28,7 +28,7 @@ function EligibilityComponent(){
                 <h1></h1>
             </div>
             <h1>Duration</h1>
-            <SlCalender /><span>6-30 months</span>
+            <SlCalender /> <span>6-30 months</span>
            
         </div>
         <div className="container-33">
@@ -36,7 +36,7 @@ function EligibilityComponent(){
                 <h1></h1>
             </div>
             <h1>Exams</h1>
-            <CgNotes/><span>Quarterly (Online)</span>
+            <CgNotes/> <span>Quarterly (Online)</span>
          
 
         </div>
@@ -45,7 +45,7 @@ function EligibilityComponent(){
                 <h1></h1>
             </div>
             <h1>Exemptions</h1>
-            <SlCalender /><span>Upto 9 papers</span>
+            <SlCalender/> <span>Upto 9 papers</span>
          
 
         </div>
